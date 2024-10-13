@@ -28,7 +28,7 @@ $url_path = str_replace('\\', '/', $url_path);
                 <label for="currency">Show rates in (Currency):</label>
                 <div class="custom-select">
                     <select id="currency">
-                        <option value="usd">United States Dollar</option>
+                        <div class><option value="usd">United States Dollar</option></div>
                     </select>
                 </div>
             </div>
@@ -37,7 +37,7 @@ $url_path = str_replace('\\', '/', $url_path);
                 <label for="country">Your country:</label>
                 <div class="custom-select">
                     <select id="country">
-                        <option class="abv" value="Select Your Country">Select Your Country</option>
+                        <option value="Select Your Country">Select Your Country</option>
                         <option value="">Select Your Country</option>
                         <option value="">Select Your Countrya</option>
                         <option value="">Select Your Country</option>

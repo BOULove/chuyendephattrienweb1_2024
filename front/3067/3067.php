@@ -14,7 +14,6 @@ if (!class_exists('lessc')) {
 $less = new lessc;
 $less->compileFile('less/3067.less', 'css/3067.css');
 ?>
-
 <!DOCTYPE html>
 <html>
     <head>
